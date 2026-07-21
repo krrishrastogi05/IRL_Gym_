@@ -132,9 +132,6 @@ export default function StoryLanding() {
             <Link href="/gym" className="inline-flex items-center gap-2 rounded-full bg-yellow px-6 py-3.5 text-sm font-bold text-[#14121c]">
               Step into the Gym <ArrowRight size={16} />
             </Link>
-            <Link href="/field" className="inline-flex items-center gap-2 rounded-full border border-white/25 px-6 py-3.5 text-sm font-bold text-white hover:bg-white/10">
-              Explore the Field
-            </Link>
           </div>
         </div>
       </Scene>

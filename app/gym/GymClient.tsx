@@ -388,9 +388,8 @@ export default function GymClient({ initialRoom }: { initialRoom?: string }) {
   if (screen === "picker") {
     return (
       <div className="mx-auto max-w-2xl px-6 py-14">
-      <div className="mb-8 flex items-center justify-between gap-3">
+      <div className="mb-8 flex items-center gap-3">
         <Link href="/" className="text-xs font-bold text-muted-foreground hover:text-foreground">Back to story</Link>
-        <Link href="/field" className="rounded-full border border-border bg-card px-3 py-1.5 text-xs font-bold hover:bg-muted">Explore Field</Link>
       </div>
         <p className="eyebrow">The Gym · rehearse for real life</p>
         <h1 className="mt-3 font-display text-4xl font-bold leading-[1.02] tracking-tight sm:text-5xl">
